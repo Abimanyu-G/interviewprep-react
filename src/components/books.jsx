@@ -1,9 +1,6 @@
 import { useState } from "react"
 
 function Books({books, setBooks}){
-
-    
-
     const[title, setTitle] = useState("")
 
      const addBook = () => {
